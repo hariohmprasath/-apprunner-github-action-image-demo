@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Running on AWS App Runner as Image based service!');
+    res.send('Running on AWS App Runner as Image based service - Part 2!');
 });
 
 const PORT = process.env.PORT || 8080;
